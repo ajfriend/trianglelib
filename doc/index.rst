@@ -9,6 +9,8 @@ Welcome to trianglelib's documentation!
 .. toctree::
    :maxdepth: 3
 
+   tutorial
+   guide
    api
 
 This is a `Link`_
