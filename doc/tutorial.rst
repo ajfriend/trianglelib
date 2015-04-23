@@ -1,33 +1,39 @@
 Example: tutorial.rst — The trianglelib tutorial
 ================================================
 
-“There is no royal road to geometry.” — Euclid
+
+    *“There is no royal road to geometry.”* — Euclid
 
 This module makes triangle processing fun!
-The beginner will enjoy how the utils module
+The beginner will enjoy how the :mod:`~trianglelib.utils` module
 lets you get started quickly.
 
 >>> from trianglelib import utils
 >>> utils.is_isosceles(5, 5, 7)
 True
 
-But fancier programmers can use the Triangle
-class to create an actual triangle object
+But fancier programmers can use the :class:`~trianglelib.shape.Triangle`
+class to create an actual triangle *object*
 upon which they can then perform lots of operations.
 For example, consider this Python program:
 
-from trianglelib.shape import Triangle
-t = Triangle(5, 5, 5)
-print 'Equilateral?', t.is_equilateral()
-print 'Isosceles?', t.is_isosceles()
+.. testcode::
 
-Since methods like is_equilateral()
+   from trianglelib.shape import Triangle
+   t = Triangle(5, 5, 5)
+   print 'Equilateral?', t.is_equilateral()
+   print 'Isosceles?', t.is_isosceles()
+
+Since methods like :meth:`~trianglelib.shape.Triangle.is_equilateral()`
 return Boolean values, this program will produce the following output:
 
-Equilateral? True
-Isosceles? True
+.. testoutput::
+    
+    Equilateral? True
+    Isosceles? True
 
-Read the Guide to learn more!
+Read the :doc:`guide` to learn more!
 
-This module only handles three-sided polygons;
-five-sided figures are right out.
+.. warning::
+   This module only handles three-sided polygons;
+   five-sided figures are right out.
