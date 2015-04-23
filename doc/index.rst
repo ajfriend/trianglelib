@@ -6,17 +6,13 @@
 Welcome to trianglelib's documentation!
 =======================================
 
-Contents:
-
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
+   api
 
+This is a `Link`_
 
-Indices and tables
-==================
+.. _Link: http://www.ajfriend.com
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
