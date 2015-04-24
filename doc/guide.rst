@@ -3,25 +3,27 @@ Example: guide.rst — The trianglelib guide
 
 
 Whether you need to test the properties of triangles,
-or learn their dimensions, trianglelib does it all!
+or learn their dimensions, :mod:`trianglelib` does it all!
 
 Special triangles
+-----------------
 
 There are two special kinds of triangle
-for which trianglelib offers special support.
+for which :mod:`trianglelib` offers special support.
 
-Equilateral triangle
-All three sides are of equal length.
+**Equilateral triangle**
+    All three sides are of equal length.
 
-Isosceles triangle
-Has at least two sides that are of equal length.
+**Isosceles triangle**
+    Has at least two sides that are of equal length.
 
 These are supported both by simple methods
-that are available in the trianglelib.utils module,
+that are available in the :mod:`~trianglelib.utils` module,
 and also by a pair of methods of the main
-Triangle class itself.
+:class:`~trianglelib.shape.Triangle` class itself.
 
 Triangle dimensions
+-------------------
 
 The library can compute triangle perimeter, area,
 and can also compare two triangles for equality.
@@ -42,18 +44,21 @@ False
 24.0
 
 Valid triangles
+---------------
 
 Many combinations of three numbers cannot be the sides of a triangle.
 Even if all three numbers are positive instead of negative or zero,
 one of the numbers can still be so large
 that the shorter two sides
 could not actually meet to make a closed figure.
-If c is the longest side, then a triangle is only possible if:
+If :math:`c` is the longest side, then a triangle is only possible if:
 
-a + b > c
+.. math::
+
+   a + b > c
 
 While the documentation
-for each function in the utils module
+for each function in the :mod:`trianglelib.utils` module
 simply specifies a return value for cases that are not real triangles,
 the Triangle class is more strict
 and raises an exception if your sides lengths are not appropriate:

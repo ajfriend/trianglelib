@@ -37,3 +37,4 @@ Read the :doc:`guide` to learn more!
 .. warning::
    This module only handles three-sided polygons;
    five-sided figures are right out.
+

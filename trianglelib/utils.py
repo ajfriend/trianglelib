@@ -9,7 +9,20 @@ def _make_triangle(a, b, c):
         return None
 
 def is_triangle(a, b, c):
-    """Return whether lengths `a`, `b`, `c` can be the sides of a triangle."""
+    """Return whether lengths `a`, `b`, `c` can be the sides of a triangle.
+
+    Parameters
+    ----------
+    a : float
+    b : float
+    c : float
+
+    Returns
+    -------
+    bool
+        If the sides can form a triangle
+
+    """
     t = _make_triangle(a, b, c)
     return (t is not None)
 
