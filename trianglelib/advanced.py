@@ -17,9 +17,8 @@ def foo(a):
 
     """
 
-    #x = cvx.Variable(4)
-    #p = cvx.Problem(cvx.Maximize(sum(x)), [x <= 1])
-    #p.solve()
+    x = cvx.Variable(4)
+    p = cvx.Problem(cvx.Maximize(sum(x)), [x <= 1])
+    p.solve()
 
-    #return np.array(x.value).flatten()
-    pass
+    return np.array(x.value).flatten()
