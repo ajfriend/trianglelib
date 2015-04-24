@@ -1,5 +1,5 @@
-import cvxpy as cvx
-import numpy as np
+#import cvxpy as cvx
+#import numpy as np
 
 def foo(a):
     """ A simple optimization problem.
@@ -17,8 +17,9 @@ def foo(a):
 
     """
 
-    x = cvx.Variable(4)
-    p = cvx.Problem(cvx.Maximize(sum(x)), [x <= 1])
-    p.solve()
+    #x = cvx.Variable(4)
+    #p = cvx.Problem(cvx.Maximize(sum(x)), [x <= 1])
+    #p.solve()
 
-    return np.array(x.value).flatten()
+    #return np.array(x.value).flatten()
+    pass
