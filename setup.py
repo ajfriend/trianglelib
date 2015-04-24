@@ -7,4 +7,11 @@ setup(
     author='Brandon Rhodes',
     author_email='brandon@rhodesmill.org',
     py_modules=['trianglelib'],
+    install_requires=['sphinx',
+'alabaster',
+'numpydoc',
+'numpy',
+'scs',
+'cvxpy']
     )
+

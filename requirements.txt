@@ -3,3 +3,4 @@ alabaster
 numpydoc
 numpy
 scs
+cvxpy
