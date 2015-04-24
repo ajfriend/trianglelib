@@ -13,7 +13,7 @@ Welcome to trianglelib's documentation!
    guide
    api
 
-This is a `Link`_
+This! is a `Link`_
 
 .. _Link: http://www.ajfriend.com
 
