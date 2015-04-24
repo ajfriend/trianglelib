@@ -1,5 +1,5 @@
 #import cvxpy as cvx
-#import numpy as np
+import numpy as np
 
 def foo(a):
     """ A simple optimization problem.
