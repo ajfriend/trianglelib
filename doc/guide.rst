@@ -1,4 +1,4 @@
-Example: guide.rst — The trianglelib guide!
+Example: guide.rst — The trianglelib guide
 ==========================================
 
 

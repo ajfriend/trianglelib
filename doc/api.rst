@@ -17,7 +17,7 @@ The "utils" module
     :members:
 
 
-The "advaned" module!
+The "advaned" module
 --------------------
 
 .. automodule:: trianglelib.advanced

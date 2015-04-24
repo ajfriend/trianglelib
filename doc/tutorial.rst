@@ -1,4 +1,4 @@
-Example: tutoria!l.rst — The trianglelib tutorial
+Example: tutorial.rst — The trianglelib tutorial
 ================================================
 
 
