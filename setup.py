@@ -12,6 +12,8 @@ setup(
 'numpydoc',
 'numpy',
 'scs',
-'cvxpy']
+'cvxpy',
+'cvxopt',
+'scipy']
     )
 
