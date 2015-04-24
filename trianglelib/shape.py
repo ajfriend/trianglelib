@@ -35,7 +35,13 @@ class Triangle(object):
                     for a, b, c in triangle._rotations() )
 
     def is_equilateral(self):
-        """Return whether this triangle is equilateral."""
+        """Return whether this triangle is equilateral.
+
+        Returns
+        -------
+        bool
+            If the triangle is equilateral.
+        """
         return self.a == self.b == self.c
 
     def is_isosceles(self):
