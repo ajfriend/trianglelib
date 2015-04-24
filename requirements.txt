@@ -2,3 +2,4 @@ sphinx
 alabaster
 numpydoc
 numpy
+scs
