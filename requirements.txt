@@ -7,3 +7,4 @@ scipy
 scs
 cvxpy
 toolz
+mock
