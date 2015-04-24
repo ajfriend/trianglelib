@@ -14,4 +14,7 @@ for the programmer who needs to support triangles:
     perform a quick computation without the programmer having to make
     the extra step of creating an object.
 
+``advanced``
+    Some advanced stuff.
+
 """

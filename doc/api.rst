@@ -15,3 +15,10 @@ The "utils" module
 
 .. automodule:: trianglelib.utils
     :members:
+
+
+The "advaned" module
+--------------------
+
+.. automodule:: trianglelib.advanced
+    :members:
